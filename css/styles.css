@@ -1,0 +1,58 @@
+body {
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+}
+
+
+/** {
+	border: 1px solid black;
+}*/
+
+h3 {
+	font-family: "Lobster Two", sans-serif;
+}
+
+#logo {
+	float:left;
+	margin-left: 4%;
+	color: white;
+	font-family: "Lobster Two", sans-serif;
+}
+
+#sideMenu {
+	background-color: rgba(90,74,101,0.3);
+	height:500px;
+	/*width: 100px;*/
+	display: none;
+	/*position: fixed;*/
+}
+
+.menu {
+	margin-top: 80px;
+
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+.menu ul li {
+	font-family: sans-serif;
+	font-size: 28px;
+	color: white;
+	text-transform: uppercase;
+	margin:30px auto;
+}
+
+#topBar {
+	height: 60px;
+}
+
+#menuTog {
+	/*background-image:url('../img/menu.png');*/
+	/*height: 20px;
+	width: 42px;*/
+	float: right;
+	margin-right: 25px;
+	margin-top: 15px;
+}
